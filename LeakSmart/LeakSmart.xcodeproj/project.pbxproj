@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041EA82E1C7F8B5B00BFF78A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA82D1C7F8B5B00BFF78A /* main.m */; };
+		041EA8311C7F8B5B00BFF78A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA8301C7F8B5B00BFF78A /* AppDelegate.m */; };
+		041EA8371C7F8B5B00BFF78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EA8351C7F8B5B00BFF78A /* Main.storyboard */; };
+		041EA83A1C7F8B5B00BFF78A /* LeakSmart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041EA8381C7F8B5B00BFF78A /* LeakSmart.xcdatamodeld */; };
+		041EA83C1C7F8B5B00BFF78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041EA83B1C7F8B5B00BFF78A /* Assets.xcassets */; };
+		041EA83F1C7F8B5B00BFF78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EA83D1C7F8B5B00BFF78A /* LaunchScreen.storyboard */; };
+		041EA84B1C7FADAA00BFF78A /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EA8491C7FADAA00BFF78A /* gear.png */; };
+		041EA84C1C7FADAA00BFF78A /* leftmain_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EA84A1C7FADAA00BFF78A /* leftmain_button.png */; };
+		041EA84F1C7FAFAC00BFF78A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA84E1C7FAFAC00BFF78A /* HomeViewController.m */; };
+		041EA8541C7FB03600BFF78A /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA8531C7FB03600BFF78A /* UIColor+HexString.m */; };
+		041EA85B1C7FBBE700BFF78A /* add_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EA8551C7FBBE700BFF78A /* add_button.png */; };
+		041EA85C1C7FBBE700BFF78A /* hub.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EA8561C7FBBE700BFF78A /* hub.png */; };
+		041EA85D1C7FBBE700BFF78A /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EA8571C7FBBE700BFF78A /* light.png */; };
+		041EA85E1C7FBBE700BFF78A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EA8581C7FBBE700BFF78A /* logo.png */; };
+		041EA85F1C7FBBE700BFF78A /* sensor.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EA8591C7FBBE700BFF78A /* sensor.png */; };
+		041EA8601C7FBBE700BFF78A /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 041EA85A1C7FBBE700BFF78A /* water.png */; };
+		041EA8691C7FDA9F00BFF78A /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA8681C7FDA9F00BFF78A /* LeftMenuViewController.m */; };
+		041EA8721C7FE6A600BFF78A /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA8711C7FE6A600BFF78A /* RightViewController.m */; };
+		041EA8761C7FF67B00BFF78A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041EA8751C7FF67B00BFF78A /* FontAwesome.ttf */; };
+		041EA8801C7FF88A00BFF78A /* FAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA8791C7FF88A00BFF78A /* FAImageView.m */; };
+		041EA8811C7FF88A00BFF78A /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA87B1C7FF88A00BFF78A /* NSString+FontAwesome.m */; };
+		041EA8821C7FF88A00BFF78A /* UIFont+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA87D1C7FF88A00BFF78A /* UIFont+FontAwesome.m */; };
+		041EA8831C7FF88A00BFF78A /* UIImage+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EA87F1C7FF88A00BFF78A /* UIImage+FontAwesome.m */; };
+		FFEA09872B200BF550340189 /* Pods_LeakSmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EB6AF594407CCB6137642B /* Pods_LeakSmart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041EA8291C7F8B5B00BFF78A /* LeakSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EA82D1C7F8B5B00BFF78A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041EA82F1C7F8B5B00BFF78A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041EA8301C7F8B5B00BFF78A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041EA8361C7F8B5B00BFF78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041EA8391C7F8B5B00BFF78A /* LeakSmart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeakSmart.xcdatamodel; sourceTree = "<group>"; };
+		041EA83B1C7F8B5B00BFF78A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041EA83E1C7F8B5B00BFF78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041EA8401C7F8B5B00BFF78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041EA8491C7FADAA00BFF78A /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = resource/images/gear.png; sourceTree = "<group>"; };
+		041EA84A1C7FADAA00BFF78A /* leftmain_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leftmain_button.png; path = resource/images/leftmain_button.png; sourceTree = "<group>"; };
+		041EA84D1C7FAFAC00BFF78A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = viewcontroller/HomeViewController.h; sourceTree = "<group>"; };
+		041EA84E1C7FAFAC00BFF78A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = viewcontroller/HomeViewController.m; sourceTree = "<group>"; };
+		041EA8521C7FB03600BFF78A /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		041EA8531C7FB03600BFF78A /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		041EA8551C7FBBE700BFF78A /* add_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add_button.png; path = resource/images/add_button.png; sourceTree = "<group>"; };
+		041EA8561C7FBBE700BFF78A /* hub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hub.png; path = resource/images/hub.png; sourceTree = "<group>"; };
+		041EA8571C7FBBE700BFF78A /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = light.png; path = resource/images/light.png; sourceTree = "<group>"; };
+		041EA8581C7FBBE700BFF78A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = resource/images/logo.png; sourceTree = "<group>"; };
+		041EA8591C7FBBE700BFF78A /* sensor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sensor.png; path = resource/images/sensor.png; sourceTree = "<group>"; };
+		041EA85A1C7FBBE700BFF78A /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = water.png; path = resource/images/water.png; sourceTree = "<group>"; };
+		041EA8661C7FCDD600BFF78A /* LeakSmart.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeakSmart.pch; sourceTree = "<group>"; };
+		041EA8671C7FDA9F00BFF78A /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftMenuViewController.h; path = viewcontroller/LeftMenuViewController.h; sourceTree = "<group>"; };
+		041EA8681C7FDA9F00BFF78A /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftMenuViewController.m; path = viewcontroller/LeftMenuViewController.m; sourceTree = "<group>"; };
+		041EA8701C7FE6A600BFF78A /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightViewController.h; path = viewcontroller/RightViewController.h; sourceTree = "<group>"; };
+		041EA8711C7FE6A600BFF78A /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightViewController.m; path = viewcontroller/RightViewController.m; sourceTree = "<group>"; };
+		041EA8751C7FF67B00BFF78A /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = resource/font/FontAwesome.ttf; sourceTree = "<group>"; };
+		041EA8781C7FF88A00BFF78A /* FAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAImageView.h; sourceTree = "<group>"; };
+		041EA8791C7FF88A00BFF78A /* FAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAImageView.m; sourceTree = "<group>"; };
+		041EA87A1C7FF88A00BFF78A /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		041EA87B1C7FF88A00BFF78A /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		041EA87C1C7FF88A00BFF78A /* UIFont+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontAwesome.h"; sourceTree = "<group>"; };
+		041EA87D1C7FF88A00BFF78A /* UIFont+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontAwesome.m"; sourceTree = "<group>"; };
+		041EA87E1C7FF88A00BFF78A /* UIImage+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FontAwesome.h"; sourceTree = "<group>"; };
+		041EA87F1C7FF88A00BFF78A /* UIImage+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FontAwesome.m"; sourceTree = "<group>"; };
+		0F53A5BD4891C916DD732F7C /* Pods-LeakSmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakSmart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeakSmart/Pods-LeakSmart.debug.xcconfig"; sourceTree = "<group>"; };
+		3A4FA89A561FDEC2F993C9A2 /* Pods-LeakSmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeakSmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeakSmart/Pods-LeakSmart.release.xcconfig"; sourceTree = "<group>"; };
+		E3EB6AF594407CCB6137642B /* Pods_LeakSmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeakSmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041EA8261C7F8B5B00BFF78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEA09872B200BF550340189 /* Pods_LeakSmart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018F8B1CBBEB0250CD4657E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3EB6AF594407CCB6137642B /* Pods_LeakSmart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041EA8201C7F8B5B00BFF78A = {
+			isa = PBXGroup;
+			children = (
+				041EA82B1C7F8B5B00BFF78A /* LeakSmart */,
+				041EA82A1C7F8B5B00BFF78A /* Products */,
+				54AA35B50CBE5D9CEEAE2F08 /* Pods */,
+				018F8B1CBBEB0250CD4657E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		041EA82A1C7F8B5B00BFF78A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041EA8291C7F8B5B00BFF78A /* LeakSmart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041EA82B1C7F8B5B00BFF78A /* LeakSmart */ = {
+			isa = PBXGroup;
+			children = (
+				041EA8501C7FB02600BFF78A /* utility */,
+				041EA8471C7FAD9800BFF78A /* resource */,
+				041EA8461C7FAC5F00BFF78A /* viewcontroller */,
+				041EA82F1C7F8B5B00BFF78A /* AppDelegate.h */,
+				041EA8301C7F8B5B00BFF78A /* AppDelegate.m */,
+				041EA8351C7F8B5B00BFF78A /* Main.storyboard */,
+				041EA83B1C7F8B5B00BFF78A /* Assets.xcassets */,
+				041EA83D1C7F8B5B00BFF78A /* LaunchScreen.storyboard */,
+				041EA8401C7F8B5B00BFF78A /* Info.plist */,
+				041EA8381C7F8B5B00BFF78A /* LeakSmart.xcdatamodeld */,
+				041EA82C1C7F8B5B00BFF78A /* Supporting Files */,
+			);
+			path = LeakSmart;
+			sourceTree = "<group>";
+		};
+		041EA82C1C7F8B5B00BFF78A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041EA82D1C7F8B5B00BFF78A /* main.m */,
+				041EA8661C7FCDD600BFF78A /* LeakSmart.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041EA8461C7FAC5F00BFF78A /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				041EA84D1C7FAFAC00BFF78A /* HomeViewController.h */,
+				041EA84E1C7FAFAC00BFF78A /* HomeViewController.m */,
+				041EA8671C7FDA9F00BFF78A /* LeftMenuViewController.h */,
+				041EA8681C7FDA9F00BFF78A /* LeftMenuViewController.m */,
+				041EA8701C7FE6A600BFF78A /* RightViewController.h */,
+				041EA8711C7FE6A600BFF78A /* RightViewController.m */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		041EA8471C7FAD9800BFF78A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				041EA8611C7FBBEC00BFF78A /* font */,
+				041EA8481C7FAD9F00BFF78A /* images */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		041EA8481C7FAD9F00BFF78A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				041EA8551C7FBBE700BFF78A /* add_button.png */,
+				041EA8561C7FBBE700BFF78A /* hub.png */,
+				041EA8571C7FBBE700BFF78A /* light.png */,
+				041EA8581C7FBBE700BFF78A /* logo.png */,
+				041EA8591C7FBBE700BFF78A /* sensor.png */,
+				041EA85A1C7FBBE700BFF78A /* water.png */,
+				041EA8491C7FADAA00BFF78A /* gear.png */,
+				041EA84A1C7FADAA00BFF78A /* leftmain_button.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		041EA8501C7FB02600BFF78A /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				041EA8771C7FF88A00BFF78A /* FontAwesome */,
+				041EA8511C7FB03600BFF78A /* HexColor */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		041EA8511C7FB03600BFF78A /* HexColor */ = {
+			isa = PBXGroup;
+			children = (
+				041EA8521C7FB03600BFF78A /* UIColor+HexString.h */,
+				041EA8531C7FB03600BFF78A /* UIColor+HexString.m */,
+			);
+			name = HexColor;
+			path = utility/HexColor;
+			sourceTree = "<group>";
+		};
+		041EA8611C7FBBEC00BFF78A /* font */ = {
+			isa = PBXGroup;
+			children = (
+				041EA8751C7FF67B00BFF78A /* FontAwesome.ttf */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		041EA8771C7FF88A00BFF78A /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				041EA8781C7FF88A00BFF78A /* FAImageView.h */,
+				041EA8791C7FF88A00BFF78A /* FAImageView.m */,
+				041EA87A1C7FF88A00BFF78A /* NSString+FontAwesome.h */,
+				041EA87B1C7FF88A00BFF78A /* NSString+FontAwesome.m */,
+				041EA87C1C7FF88A00BFF78A /* UIFont+FontAwesome.h */,
+				041EA87D1C7FF88A00BFF78A /* UIFont+FontAwesome.m */,
+				041EA87E1C7FF88A00BFF78A /* UIImage+FontAwesome.h */,
+				041EA87F1C7FF88A00BFF78A /* UIImage+FontAwesome.m */,
+			);
+			name = FontAwesome;
+			path = utility/FontAwesome;
+			sourceTree = "<group>";
+		};
+		54AA35B50CBE5D9CEEAE2F08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F53A5BD4891C916DD732F7C /* Pods-LeakSmart.debug.xcconfig */,
+				3A4FA89A561FDEC2F993C9A2 /* Pods-LeakSmart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041EA8281C7F8B5B00BFF78A /* LeakSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041EA8431C7F8B5B00BFF78A /* Build configuration list for PBXNativeTarget "LeakSmart" */;
+			buildPhases = (
+				9B8E2438080C5187339ED69F /* Check Pods Manifest.lock */,
+				041EA8251C7F8B5B00BFF78A /* Sources */,
+				041EA8261C7F8B5B00BFF78A /* Frameworks */,
+				041EA8271C7F8B5B00BFF78A /* Resources */,
+				0E1DBABDADDE61224F6A6F2B /* Embed Pods Frameworks */,
+				7650ECC9536CC6792F000BB5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeakSmart;
+			productName = LeakSmart;
+			productReference = 041EA8291C7F8B5B00BFF78A /* LeakSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041EA8211C7F8B5B00BFF78A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Radu Vila";
+				TargetAttributes = {
+					041EA8281C7F8B5B00BFF78A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 041EA8241C7F8B5B00BFF78A /* Build configuration list for PBXProject "LeakSmart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041EA8201C7F8B5B00BFF78A;
+			productRefGroup = 041EA82A1C7F8B5B00BFF78A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041EA8281C7F8B5B00BFF78A /* LeakSmart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041EA8271C7F8B5B00BFF78A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EA83F1C7F8B5B00BFF78A /* LaunchScreen.storyboard in Resources */,
+				041EA8761C7FF67B00BFF78A /* FontAwesome.ttf in Resources */,
+				041EA85C1C7FBBE700BFF78A /* hub.png in Resources */,
+				041EA85E1C7FBBE700BFF78A /* logo.png in Resources */,
+				041EA84C1C7FADAA00BFF78A /* leftmain_button.png in Resources */,
+				041EA83C1C7F8B5B00BFF78A /* Assets.xcassets in Resources */,
+				041EA85D1C7FBBE700BFF78A /* light.png in Resources */,
+				041EA85B1C7FBBE700BFF78A /* add_button.png in Resources */,
+				041EA84B1C7FADAA00BFF78A /* gear.png in Resources */,
+				041EA8601C7FBBE700BFF78A /* water.png in Resources */,
+				041EA8371C7F8B5B00BFF78A /* Main.storyboard in Resources */,
+				041EA85F1C7FBBE700BFF78A /* sensor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E1DBABDADDE61224F6A6F2B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakSmart/Pods-LeakSmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7650ECC9536CC6792F000BB5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LeakSmart/Pods-LeakSmart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B8E2438080C5187339ED69F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041EA8251C7F8B5B00BFF78A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EA8721C7FE6A600BFF78A /* RightViewController.m in Sources */,
+				041EA8541C7FB03600BFF78A /* UIColor+HexString.m in Sources */,
+				041EA8811C7FF88A00BFF78A /* NSString+FontAwesome.m in Sources */,
+				041EA8821C7FF88A00BFF78A /* UIFont+FontAwesome.m in Sources */,
+				041EA8311C7F8B5B00BFF78A /* AppDelegate.m in Sources */,
+				041EA83A1C7F8B5B00BFF78A /* LeakSmart.xcdatamodeld in Sources */,
+				041EA82E1C7F8B5B00BFF78A /* main.m in Sources */,
+				041EA8801C7FF88A00BFF78A /* FAImageView.m in Sources */,
+				041EA8691C7FDA9F00BFF78A /* LeftMenuViewController.m in Sources */,
+				041EA84F1C7FAFAC00BFF78A /* HomeViewController.m in Sources */,
+				041EA8831C7FF88A00BFF78A /* UIImage+FontAwesome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		041EA8351C7F8B5B00BFF78A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041EA8361C7F8B5B00BFF78A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041EA83D1C7F8B5B00BFF78A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041EA83E1C7F8B5B00BFF78A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041EA8411C7F8B5B00BFF78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		041EA8421C7F8B5B00BFF78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041EA8441C7F8B5B00BFF78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F53A5BD4891C916DD732F7C /* Pods-LeakSmart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = LeakSmart/LeakSmart.pch;
+				INFOPLIST_FILE = LeakSmart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VirtusVentures.LeakSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		041EA8451C7F8B5B00BFF78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4FA89A561FDEC2F993C9A2 /* Pods-LeakSmart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = LeakSmart/LeakSmart.pch;
+				INFOPLIST_FILE = LeakSmart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VirtusVentures.LeakSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041EA8241C7F8B5B00BFF78A /* Build configuration list for PBXProject "LeakSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EA8411C7F8B5B00BFF78A /* Debug */,
+				041EA8421C7F8B5B00BFF78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041EA8431C7F8B5B00BFF78A /* Build configuration list for PBXNativeTarget "LeakSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EA8441C7F8B5B00BFF78A /* Debug */,
+				041EA8451C7F8B5B00BFF78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		041EA8381C7F8B5B00BFF78A /* LeakSmart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				041EA8391C7F8B5B00BFF78A /* LeakSmart.xcdatamodel */,
+			);
+			currentVersion = 041EA8391C7F8B5B00BFF78A /* LeakSmart.xcdatamodel */;
+			path = LeakSmart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 041EA8211C7F8B5B00BFF78A /* Project object */;
+}

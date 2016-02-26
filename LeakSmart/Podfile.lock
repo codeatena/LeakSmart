@@ -1,0 +1,19 @@
+PODS:
+  - iOS-Slide-Menu (1.5)
+  - IQKeyboardManager (4.0.0)
+  - M13Checkbox (1.2.0)
+  - PureLayout (3.0.1)
+
+DEPENDENCIES:
+  - iOS-Slide-Menu
+  - IQKeyboardManager
+  - M13Checkbox
+  - PureLayout
+
+SPEC CHECKSUMS:
+  iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
+  IQKeyboardManager: b91928f7927ba55a5829b4dcf4b7a6736ac9fc22
+  M13Checkbox: 741b406a1d72415e3e3af9b9b6347ff345ed2f97
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+
+COCOAPODS: 0.39.0
